@@ -1,0 +1,83 @@
+{
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.3,
+    "editor.lineHeight": 18,
+    "editor.rulers": [
+        79,
+        120
+    ],
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "j"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ],
+            "before": [
+                "p"
+            ]
+        },
+        {
+            "after": [
+                "editor.action.indentLines"
+            ],
+            "before": [
+                ">"
+            ]
+        },
+        {
+            "after": [
+                "editor.action.outdentLines"
+            ],
+            "before": [
+                "<"
+            ]
+        }
+    ],
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Rainbow Contrast (rainglow)",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "newUntitledFile",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.zoomLevel": 0,
+    "workbench.editor.showTabs": true,
+    "workbench.statusBar.visible": true,
+    "workbench.colorCustomizations": {
+        "titleBar.border": "#05080A",
+        "list.activeSelectionBackground": "#05080A",
+        "list.inactiveSelectionBackground": "#05080A",
+        "tab.inactiveBackground": "#05080A",
+        "editorGroupHeader.tabsBackground": "#05080A",
+        "editorGroupHeader.noTabsBackground": "#05080A",
+        "activityBar.background": "#05080A",
+        "sideBar.background": "#05080A",
+        "sideBarSectionHeader.background": "#05080A",
+        "activityBar.border": "#0b1015",
+        "tab.border": "#0b1015",
+        "panel.border": "#05080A",
+        "statusBar.border": "#05080A",
+        "statusBar.background": "#05080A",
+    },
+    "sqltools.useNodeRuntime": true,
+}
